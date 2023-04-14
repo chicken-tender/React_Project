@@ -4,7 +4,6 @@ import './App.css';
 // import Person from './0411_3_Person_전개연산자';
 // import Say from './0411_4_Say';
 // import Clock from './0411_5_Clock';
-// import BookList from './연습';
 // import EventHandler from './0412_1_이벤트핸들러_OnChange';
 // import FruitSelect from './0412_2_이벤트핸들러_SelectBox';
 // import RadioButton from './0412_3_이벤트핸들러_RadioBox';
@@ -15,7 +14,7 @@ import './App.css';
 // import MapTest from './0413_3_Map';
 // import IterationSample from './0413_4_IterationSample';
 // import Usestate from './0413_5_UseState';
-import NameCard from './0413_6_UseState_연습문제';
+import UserState from './0414_1_명함만들기';
 
 // 화살표 함수 : const App = () => {}
 function App() {
@@ -34,7 +33,6 @@ function App() {
       {/* <Person {...personData}/> */}
       {/* <Say /> */}
       {/* <Clock /> */}
-      {/* <BookList /> */}
       {/* <EventHandler /> */}
       {/* <FruitSelect /> */}
       {/* <RadioButton /> */}
@@ -45,7 +43,7 @@ function App() {
       {/* <MapTest /> */}
       {/* <IterationSample /> */}
       {/* <Usestate /> */}
-      <NameCard />
+      <UserState />
     </>
   );
 }
