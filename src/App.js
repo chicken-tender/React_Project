@@ -20,6 +20,7 @@ import './App.css';
 // import UseEffectClock from './0417_3_useEffect3';
 // import UseReducerCnt from './0417_4_useReducer';
 import Average from './0417_5_useMemo';
+// import Average2 from './0417_6_useCallback';
 
 // 화살표 함수 : const App = () => {}
 function App() {
@@ -54,6 +55,7 @@ function App() {
       {/* <UseEffectClock /> */}
       {/* <UseReducerCnt /> */}
       <Average />
+      {/* <Average2 /> */}
     </>
   );
 }
