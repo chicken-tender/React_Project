@@ -14,7 +14,12 @@ import './App.css';
 // import MapTest from './0413_3_Map';
 // import IterationSample from './0413_4_IterationSample';
 // import Usestate from './0413_5_UseState';
-import UserState from './0414_1_명함만들기';
+// import UserState from './0414_1_명함만들기';
+// import UseEffectInfo from './0417_1_useEffect';
+// import UseEffectCnt from './0417_2_useEffect2';
+// import UseEffectClock from './0417_3_useEffect3';
+// import UseReducerCnt from './0417_4_useReducer';
+import Average from './0417_5_useMemo';
 
 // 화살표 함수 : const App = () => {}
 function App() {
@@ -43,7 +48,12 @@ function App() {
       {/* <MapTest /> */}
       {/* <IterationSample /> */}
       {/* <Usestate /> */}
-      <UserState />
+      {/* <UserState /> */}
+      {/* <UseEffectInfo /> */}
+      {/* <UseEffectCnt /> */}
+      {/* <UseEffectClock /> */}
+      {/* <UseReducerCnt /> */}
+      <Average />
     </>
   );
 }
